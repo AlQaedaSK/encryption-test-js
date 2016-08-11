@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+form {
+
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 15px;
+    margin: 0;
+}
+label{
+    display: block;
+    float: left;
+    padding: 15px;
+    width: 100%;
+}
+span {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 5px 0;
+}
+input[type=text]{
+    display: block;
+    float: left;
+    padding: 15px;
+    border: 0;
+    background: #fff;
+    width: 100%;
+}
+input[type=submit],
+input[type=button]{
+    display: block;
+    float: left;
+    padding: 15px 15px;
+    background: rgba( 120, 205, 252, 0.722 );
+    font-size: 1em;
+    text-align: center;
+    border: 0;
+    width: 100%;
+}
+body{
+    background: #ebebeb;
+}

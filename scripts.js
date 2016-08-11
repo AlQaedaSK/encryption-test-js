@@ -1,1 +1,3 @@
-console.log('teste inicial');
+$(document).ready(function(){
+    console.log('Front-end');    
+})
