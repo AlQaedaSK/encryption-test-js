@@ -9,13 +9,31 @@
     <body>
         <h1>Decodificando dados</h1>
         
-        <form action="">
-            <label><span>Info 1: </span><input type="text" id="info1"></label>
-            <label><span>Info 2: </span><input type="text" id="info2"></label>
-            <label><input type="submit" value="Decodificar"></label>
+        <form id="form1" name="form1">
+            <label>
+                <span>
+                    Info 1: 
+                </span>
+                <input type="text" id="info1" name="info1-code">
+            </label>
+            <label>
+                <span>
+                    Info 2: 
+                </span>
+            <input type="text" id="info2" name="info2-code">
+            </label>
         </form>
-        <label id="info1-show"></label>
-        <label id="info2-show"></label>        
+        
+        <label>
+            <button id="decode">
+                Decodificar
+            </button>
+        </label>
+        
+        <div id="ans">
+            
+            
+        </div>      
         
         <script src="jquery.js"></script>
         <script src="scripts.js"></script>

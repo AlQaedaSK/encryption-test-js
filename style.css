@@ -30,7 +30,8 @@ input[type=text]{
     width: 100%;
 }
 input[type=submit],
-input[type=button]{
+input[type=button],
+button{
     display: block;
     float: left;
     padding: 15px 15px;
